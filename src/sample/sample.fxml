@@ -11,6 +11,7 @@
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
   </columnConstraints>
   <rowConstraints>
+    <RowConstraints minHeight="10.0" percentHeight="64.0" prefHeight="30.0" vgrow="SOMETIMES" />
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
@@ -33,7 +34,7 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <GridPane fx:id="playerCard0" gridLinesVisible="true" style="-fx-background-color: tan;">
+                  <GridPane fx:id="playerCard0">
                      <columnConstraints>
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -45,33 +46,38 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <Label fx:id="pc0Top" text="4" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                        <Label fx:id="pc0Top" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
                            <GridPane.margin>
-                              <Insets top="3.0" />
+                              <Insets top="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc0Left" layoutX="42.0" layoutY="10.0" text="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                        <Label fx:id="pc0Left" layoutX="42.0" layoutY="10.0" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets left="3.0" />
+                              <Insets left="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc0Bottom" layoutX="10.0" layoutY="35.0" text="2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                        <Label fx:id="pc0Bottom" layoutX="10.0" layoutY="35.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                            <GridPane.margin>
-                              <Insets bottom="3.0" />
+                              <Insets bottom="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc0Right" layoutX="10.0" layoutY="35.0" text="1" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                        <Label fx:id="pc0Right" layoutX="10.0" layoutY="35.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets right="3.0" />
+                              <Insets right="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc0Name" text="card name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                        <Label fx:id="pc0Name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                        <Label fx:id="pc0Family" layoutX="37.0" layoutY="59.0" textAlignment="RIGHT" wrapText="true" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                           <GridPane.margin>
+                              <Insets right="5.0" top="4.0" />
+                           </GridPane.margin>
+                        </Label>
                      </children>
                      <GridPane.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </GridPane.margin>
                   </GridPane>
-                  <GridPane fx:id="playerCard1" gridLinesVisible="true" layoutX="11.0" layoutY="16.0" style="-fx-background-color: tan;" GridPane.columnIndex="1">
+                  <GridPane fx:id="playerCard1" layoutX="11.0" layoutY="16.0" GridPane.columnIndex="1">
                      <columnConstraints>
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -83,33 +89,38 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <Label fx:id="pc1Top" text="4" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                        <Label fx:id="pc1Top" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
                            <GridPane.margin>
-                              <Insets top="3.0" />
+                              <Insets top="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc1Left" layoutX="42.0" layoutY="10.0" text="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                        <Label fx:id="pc1Left" layoutX="42.0" layoutY="10.0" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets left="3.0" />
+                              <Insets left="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc1Bottom" layoutX="10.0" layoutY="35.0" text="2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                        <Label fx:id="pc1Bottom" layoutX="10.0" layoutY="35.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                            <GridPane.margin>
-                              <Insets bottom="3.0" />
+                              <Insets bottom="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc1Right" layoutX="10.0" layoutY="35.0" text="1" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                        <Label fx:id="pc1Right" layoutX="10.0" layoutY="35.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets right="3.0" />
+                              <Insets right="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc1Name" onMouseClicked="#setPCtestButton" text="card name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                        <Label fx:id="pc1Name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                        <Label fx:id="pc1Family" layoutX="37.0" layoutY="59.0" textAlignment="RIGHT" wrapText="true" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                           <GridPane.margin>
+                              <Insets right="5.0" top="4.0" />
+                           </GridPane.margin>
+                        </Label>
                      </children>
                      <GridPane.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </GridPane.margin>
                   </GridPane>
-                  <GridPane fx:id="playerCard2" gridLinesVisible="true" layoutX="75.0" layoutY="11.0" style="-fx-background-color: tan;" GridPane.columnIndex="2">
+                  <GridPane fx:id="playerCard2" layoutX="75.0" layoutY="11.0" GridPane.columnIndex="2">
                      <columnConstraints>
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -121,27 +132,32 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <Label fx:id="pc2Top" onMouseClicked="#setPc0GriffinButton" text="4" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                        <Label fx:id="pc2Top" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
                            <GridPane.margin>
-                              <Insets top="3.0" />
+                              <Insets top="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc2Left" layoutX="42.0" layoutY="10.0" text="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                        <Label fx:id="pc2Left" layoutX="42.0" layoutY="10.0" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets left="3.0" />
+                              <Insets left="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc2Bottom" layoutX="10.0" layoutY="35.0" onMouseClicked="#setPc0OnionButton" text="2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                        <Label fx:id="pc2Bottom" layoutX="10.0" layoutY="35.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                            <GridPane.margin>
-                              <Insets bottom="3.0" />
+                              <Insets bottom="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc2Right" layoutX="10.0" layoutY="35.0" text="1" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                        <Label fx:id="pc2Right" layoutX="10.0" layoutY="35.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets right="3.0" />
+                              <Insets right="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc2Name" text="card name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                        <Label fx:id="pc2Name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                        <Label fx:id="pc2Family" layoutX="37.0" layoutY="59.0" textAlignment="RIGHT" wrapText="true" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                           <GridPane.margin>
+                              <Insets right="5.0" top="4.0" />
+                           </GridPane.margin>
+                        </Label>
                      </children>
                      <GridPane.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
@@ -158,7 +174,7 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <GridPane fx:id="playerCard3" gridLinesVisible="true" style="-fx-background-color: tan;">
+                  <GridPane fx:id="playerCard3">
                     <columnConstraints>
                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -170,29 +186,34 @@
                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <Label fx:id="pc3Top" text="4" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                        <Label fx:id="pc3Top" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
                            <GridPane.margin>
-                              <Insets top="3.0" />
+                              <Insets top="4.0" />
                            </GridPane.margin></Label>
-                        <Label fx:id="pc3Left" layoutX="42.0" layoutY="10.0" text="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                        <Label fx:id="pc3Left" layoutX="42.0" layoutY="10.0" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets left="3.0" />
+                              <Insets left="4.0" />
                            </GridPane.margin></Label>
-                        <Label fx:id="pc3Bottom" layoutX="10.0" layoutY="35.0" text="2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                        <Label fx:id="pc3Bottom" layoutX="10.0" layoutY="35.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                            <GridPane.margin>
-                              <Insets bottom="3.0" />
+                              <Insets bottom="4.0" />
                            </GridPane.margin></Label>
-                        <Label fx:id="pc3Right" layoutX="10.0" layoutY="35.0" text="1" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                        <Label fx:id="pc3Right" layoutX="10.0" layoutY="35.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets right="3.0" />
+                              <Insets right="4.0" />
                            </GridPane.margin></Label>
-                        <Label fx:id="pc3Name" text="card name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                        <Label fx:id="pc3Name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                        <Label fx:id="pc3Family" layoutX="54.0" layoutY="59.0" textAlignment="RIGHT" wrapText="true" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                           <GridPane.margin>
+                              <Insets right="5.0" top="4.0" />
+                           </GridPane.margin>
+                        </Label>
                      </children>
                      <GridPane.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </GridPane.margin>
                   </GridPane>
-                  <GridPane fx:id="playerCard4" gridLinesVisible="true" layoutX="113.0" layoutY="16.0" style="-fx-background-color: tan;" GridPane.columnIndex="1">
+                  <GridPane fx:id="playerCard4" layoutX="113.0" layoutY="16.0" GridPane.columnIndex="1">
                      <columnConstraints>
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -204,27 +225,32 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <Label fx:id="pc4Top" text="4" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                        <Label fx:id="pc4Top" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
                            <GridPane.margin>
-                              <Insets top="3.0" />
+                              <Insets top="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc4Left" layoutX="42.0" layoutY="10.0" text="3" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                        <Label fx:id="pc4Left" layoutX="42.0" layoutY="10.0" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets left="3.0" />
+                              <Insets left="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc4Bottom" layoutX="10.0" layoutY="35.0" text="2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                        <Label fx:id="pc4Bottom" layoutX="10.0" layoutY="35.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                            <GridPane.margin>
-                              <Insets bottom="3.0" />
+                              <Insets bottom="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc4Right" layoutX="10.0" layoutY="35.0" text="1" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                        <Label fx:id="pc4Right" layoutX="10.0" layoutY="35.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                            <GridPane.margin>
-                              <Insets right="3.0" />
+                              <Insets right="4.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="pc4Name" text="card name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                        <Label fx:id="pc4Name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                        <Label fx:id="pc4Family" layoutX="54.0" layoutY="59.0" textAlignment="RIGHT" wrapText="true" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                           <GridPane.margin>
+                              <Insets right="5.0" top="4.0" />
+                           </GridPane.margin>
+                        </Label>
                      </children>
                      <GridPane.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
@@ -234,27 +260,906 @@
             </GridPane>
          </children>
       </GridPane>
-      <GridPane fx:id="boardPanel" style="-fx-border-color: yellow; -fx-border-width: 2;" GridPane.columnIndex="1">
-        <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-        </columnConstraints>
-        <rowConstraints>
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-        </rowConstraints>
+      <GridPane fx:id="boardPanel" layoutX="410.0" layoutY="10.0" style="-fx-border-color: red; -fx-border-width: 2;" GridPane.columnIndex="1">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <GridPane fx:id="boardCard0" gridLinesVisible="true" style="-fx-background-color: &quot;CF787F&quot;;">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+               <children>
+                  <Label fx:id="bc0Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc0Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc0Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc0Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc0Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="bc0Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+            </GridPane>
+            <GridPane fx:id="boardCard1" gridLinesVisible="true" layoutX="16.0" layoutY="16.0" GridPane.columnIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="bc1Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc1Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc1Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc1Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc1Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="bc1Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane fx:id="boardCard2" gridLinesVisible="true" layoutX="81.0" layoutY="16.0" GridPane.columnIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="bc2Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc2Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc2Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc2Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc2Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="bc2Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane fx:id="boardCard3" gridLinesVisible="true" layoutX="146.0" layoutY="16.0" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="bc3Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc3Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc3Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc3Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc3Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="bc3Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane fx:id="boardCard4" gridLinesVisible="true" layoutX="16.0" layoutY="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="bc4Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc4Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc4Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc4Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc4Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="bc4Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane fx:id="boardCard5" gridLinesVisible="true" layoutX="81.0" layoutY="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="bc5Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc5Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc5Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc5Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc5Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="bc5Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane fx:id="boardCard6" gridLinesVisible="true" layoutX="146.0" layoutY="100.0" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="bc6Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc6Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc6Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc6Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc6Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="bc6Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane fx:id="boardCard7" gridLinesVisible="true" layoutX="16.0" layoutY="184.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="bc7Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc7Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc7Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc7Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc7Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="bc7Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane fx:id="boardCard8" gridLinesVisible="true" layoutX="81.0" layoutY="184.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="bc8Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc8Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc8Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc8Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="bc8Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="bc8Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+         </children>
       </GridPane>
       <GridPane fx:id="opponentPanel" style="-fx-border-color: red; -fx-border-width: 2;" GridPane.columnIndex="2">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         </columnConstraints>
         <rowConstraints>
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
+         <children>
+            <GridPane fx:id="oppCard0" gridLinesVisible="true" style="-fx-background-color: &quot;CF787F&quot;;">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+               <children>
+                  <Label fx:id="oc0Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc0Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc0Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc0Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc0Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="oc0Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc0FixVar" layoutX="48.0" layoutY="14.0" text="Fixed" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+            </GridPane>
+            <GridPane fx:id="oppCard1" gridLinesVisible="true" layoutX="16.0" layoutY="16.0" GridPane.columnIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="oc1Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc1Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc1Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc1Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc1Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="oc1Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc1FixVar" layoutX="48.0" layoutY="14.0" text="Fixed" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane fx:id="oppCard2" gridLinesVisible="true" layoutX="81.0" layoutY="16.0" GridPane.columnIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="oc2Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc2Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc2Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc2Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc2Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="oc2Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc2FixVar" layoutX="48.0" layoutY="14.0" text="Fixed" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane fx:id="oppCard3" gridLinesVisible="true" layoutX="146.0" layoutY="16.0" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="oc3Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc3Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc3Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc3Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc3Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="oc3Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc3FixVar" layoutX="48.0" layoutY="14.0" text="Fixed" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane fx:id="oppCard4" gridLinesVisible="true" layoutX="16.0" layoutY="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="oc4Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc4Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc4Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc4Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc4Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="oc4Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc4FixVar" layoutX="48.0" layoutY="14.0" text="Fixed" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane fx:id="oppCard5" gridLinesVisible="true" layoutX="81.0" layoutY="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="oc5Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc5Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc5Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc5Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc5Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="oc5Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc5FixVar" layoutX="48.0" layoutY="14.0" text="Fixed" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane fx:id="oppCard6" gridLinesVisible="true" layoutX="146.0" layoutY="100.0" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="oc6Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc6Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc6Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc6Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc6Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="oc6Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc6FixVar" layoutX="48.0" layoutY="14.0" text="Fixed" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane fx:id="oppCard7" gridLinesVisible="true" layoutX="16.0" layoutY="184.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="oc7Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc7Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc7Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc7Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc7Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="oc7Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc7FixVar" layoutX="48.0" layoutY="14.0" text="Fixed" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane fx:id="oppCard8" gridLinesVisible="true" layoutX="81.0" layoutY="184.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label fx:id="oc8Top" text="1" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc8Left" layoutX="10.0" layoutY="14.0" text="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets left="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc8Bottom" layoutX="10.0" layoutY="14.0" text="3" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc8Right" layoutX="10.0" layoutY="14.0" text="4" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets right="3.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc8Name" layoutX="10.0" layoutY="14.0" text="name" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <Label fx:id="oc8Family" text="Family" textAlignment="RIGHT" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets right="5.0" top="4.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="oc8FixVar" layoutX="48.0" layoutY="14.0" text="Fixed" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </GridPane.margin>
+            </GridPane>
+         </children>
+      </GridPane>
+      <GridPane fx:id="playerEntryPanel" GridPane.rowIndex="1">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Card 0" GridPane.halignment="CENTER" />
+            <TextField fx:id="pc0Entry" onKeyTyped="#setPc0FromEntry" GridPane.columnIndex="1" />
+            <Label layoutX="43.0" layoutY="18.0" text="Card 1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+            <TextField fx:id="pc1Entry" layoutX="110.0" layoutY="14.0" onKeyTyped="#setPc1FromEntry" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label layoutX="43.0" layoutY="50.0" text="Card 2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <TextField fx:id="pc2Entry" layoutX="110.0" layoutY="46.0" onKeyTyped="#setPc2FromEntry" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label layoutX="43.0" layoutY="82.0" text="Card 3" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+            <TextField fx:id="pc3Entry" layoutX="110.0" layoutY="46.0" onKeyTyped="#setPc3FromEntry" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label layoutX="43.0" layoutY="114.0" text="Card 4" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+            <TextField fx:id="pc4Entry" layoutX="110.0" layoutY="46.0" onKeyTyped="#setPc4FromEntry" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <Button mnemonicParsing="false" onAction="#setAllPCsFromEntry" text="Set all cards" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin></Button>
+      <Button layoutX="220.0" layoutY="276.0" mnemonicParsing="false" onAction="#setOppAndRules" text="Set opponent and rules" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin>
+      </Button>
+      <GridPane fx:id="opponentEntryPanel" GridPane.columnIndex="2" GridPane.rowIndex="1">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Opponent name" />
+            <TextField fx:id="oppNameEntry" onKeyTyped="#setOppFromEntry" GridPane.rowIndex="1" />
+            <Label layoutX="10.0" layoutY="16.0" text="Regional rules" GridPane.rowIndex="2" />
+            <TextField fx:id="ruleEntry0" layoutX="10.0" layoutY="12.0" GridPane.rowIndex="3" />
+            <TextField fx:id="ruleEntry1" layoutX="10.0" layoutY="12.0" GridPane.rowIndex="4" />
+         </children>
       </GridPane>
    </children>
 </GridPane>
