@@ -17,7 +17,9 @@ public class Main extends Application {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("sample.fxml"));
         Parent root = loader.load();
         primaryStage.setTitle("set up the 3 panels");
-        primaryStage.setScene(new Scene(root, 1800, 900));
+        Scene sc = new Scene(root, 1800, 900);
+//        sc.getStylesheets().add("sample/paneStyles.css");
+        primaryStage.setScene(sc);
         primaryStage.show();
         Controller c = loader.getController();
         c.Setup();
